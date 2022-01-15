@@ -33,3 +33,21 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with anoth
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify other device_mx_AccessibleButton_7edffc'))
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:8080/')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'anonymous-me-me')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Password'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'ivW5CBlnCrzZ3WauyDwDlA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later'))
+
