@@ -21,28 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In (19)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In (11)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username (20)'), 'yes_yes')
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username (12)'), 'yes_yes')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password (20)'), 'jMiN+Qtu4gD0Iloo12uvRg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password (12)'), 'jMiN+Qtu4gD0Iloo12uvRg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit (20)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit (12)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45 (19)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45 (11)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later (19)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later (11)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_People_mx_AccessibleButton mx_RoomSubli_de75e7 (8)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_hihi1 (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_yes_yesmatrix.org_focus-visible (3)'), '@hihi1:matrix.org', 
-    FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Object Repository/Page_Element  hihi1/div_hihi1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Hhihi1hihi1matrix.org (3)'))
+WebUI.click(findTestObject('Object Repository/Page_Element  hihi1/span_Leave'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Go (7)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element  hihi1/div__mx_BasicMessageComposer'))
+WebUI.click(findTestObject('Object Repository/Page_Element  hihi1/button_Leave'))
 
 WebUI.closeBrowser()
 

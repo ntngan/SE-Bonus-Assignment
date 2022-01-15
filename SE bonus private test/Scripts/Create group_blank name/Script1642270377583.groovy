@@ -21,28 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In (19)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In (13)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username (20)'), 'yes_yes')
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username (14)'), 'yes_yes')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password (20)'), 'jMiN+Qtu4gD0Iloo12uvRg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password (14)'), 'jMiN+Qtu4gD0Iloo12uvRg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit (20)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit (14)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45 (19)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45 (13)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later (19)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later (13)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_People_mx_AccessibleButton mx_RoomSubli_de75e7 (8)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_yes_yesmatrix.org_focus-visible (3)'), '@hihi1:matrix.org', 
-    FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Create new room'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Hhihi1hihi1matrix.org (3)'))
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Name_mx_Field_5'), 'science')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Go (7)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/span_Private room (invite only)_mx_Dropdown_arrow'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  hihi1/div__mx_BasicMessageComposer'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Private room (invite only) (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/button_Create Room (2)'))
 
 WebUI.closeBrowser()
 
