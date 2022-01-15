@@ -21,17 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'anonymous-me-me')
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username (3)'), 'yes_yes')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Password'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password (3)'), 'jMiN+Qtu4gD0Iloo12uvRg==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'ivW5CBlnCrzZ3WauyDwDlA==')
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit (3)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45 (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_People_mx_AccessibleButton mx_RoomSubli_de75e7 (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Direct Messages_mx_AccessibleButton mx__57a7bb'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Create a Group Chat'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a private room_mx_Field_4'), 'test_create_private_group')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/button_Create Room'))
+
+WebUI.closeBrowser()
 

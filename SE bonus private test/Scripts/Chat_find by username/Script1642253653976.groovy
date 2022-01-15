@@ -21,17 +21,30 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In (7)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'anonymous-me-me')
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username (8)'), 'yes_yes')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Password'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password (8)'), 'jMiN+Qtu4gD0Iloo12uvRg==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'ivW5CBlnCrzZ3WauyDwDlA==')
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit (8)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45 (7)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later (7)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_People_mx_AccessibleButton mx_RoomSubli_de75e7 (4)'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_yes_yesmatrix.org_focus-visible (3)'), 'nono_nono')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Nnono_nononono_nonomatrix.org10 minutes ago'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Go (3)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  nono_nono/div'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element  nono_nono/div_test chat by finding account_mx_BasicMe_cbca2a (1)'), 
+    '<div style=""><br></div>')
+
+WebUI.closeBrowser()
 
