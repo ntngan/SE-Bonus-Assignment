@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sign up with empty information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5a2417b-0d2f-4bbb-b63a-b3d4f274e776</testCaseGuid>
+</TestCaseEntity>

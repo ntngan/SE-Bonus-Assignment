@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d22edf1d-4dab-46db-b3e2-e28ddfcb708d</testSuiteGuid>
    <testCaseLink>
-      <guid>6e407dfb-ed79-4f45-b5ab-90a0beb2565a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Chat_send file</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a77da135-cff4-4b50-8887-1aacd6998435</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -58,5 +52,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create space_user_public</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3fe9d1a0-1f1a-4258-9b0a-101a3e432fe5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sign up with empty information</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>38eaf87c-5d63-42a6-ab07-c9db1246f781</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sign up with existing email</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c17e4c90-3ef5-4c56-8fab-0d01f0e76069</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Log in without registered</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

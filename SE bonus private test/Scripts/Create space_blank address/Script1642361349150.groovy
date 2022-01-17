@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify_mx_SpaceBu
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Upload_spaceName'), 'user_public')
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Upload_spaceName'), 'user_public10')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input__mx_Field_5'), '')
 

@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>s</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

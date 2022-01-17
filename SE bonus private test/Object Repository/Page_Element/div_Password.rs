@@ -6,12 +6,12 @@
    <elementGuidId>2f0889b2-2294-4bfd-86b3-73417efcf22a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/form/div[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthBody&quot;]/div[2]/form[1]/div[@class=&quot;mx_Field mx_Field_input&quot;]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthBody&quot;]/div[3]/form[1]/div[@class=&quot;mx_Field mx_Field_input&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]</value>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/form/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +78,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]</value>
    </webElementXpaths>
 </WebElementEntity>

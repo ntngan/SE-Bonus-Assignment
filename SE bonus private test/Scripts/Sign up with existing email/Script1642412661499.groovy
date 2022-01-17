@@ -21,31 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_Element/a_Create Account'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'yes_yes')
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Or_mx_RegistrationForm_username'), 'anonymous-he-he-he')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'jMiN+Qtu4gD0Iloo12uvRg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_mx_RegistrationForm_password'), 'ivW5CBlnCrzZ3WauyDwDlA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Password_mx_RegistrationForm_passwordConfirm'), 
+    'ivW5CBlnCrzZ3WauyDwDlA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45'))
+WebUI.doubleClick(findTestObject('Object Repository/Page_Element/input_Confirm password_mx_Field_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later'))
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Confirm password_mx_Field_1'), 'nganphongkb@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify_mx_SpaceButton_icon'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Element/input_Confirm password_mx_Field_1'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_PublicOpen space for anyone, best for c_08629a'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Upload_spaceName'), 'user_public1')
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input__mx_Field_5'), '')
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input__mx_Field_5'), 'user_publicccccccc')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Create'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element  user_public/div_Spaces are a new feature.Give feedback._236a82'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_Element/div_That e-mail address is already in use'))
 

@@ -6,12 +6,12 @@
    <elementGuidId>b1210c0e-4e64-4e10-80af-d4ea2869ca0b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mx_Field_3</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='mx_Field_3']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mx_Field_3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>a</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]/input</value>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/form/div[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
