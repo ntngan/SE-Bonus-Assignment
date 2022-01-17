@@ -33,14 +33,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this devic
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later (10)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ttest_create_private_group'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Hhaha4 and nono_nono'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  test_create_private_group/div_yes_yes created and configured the room_8488cd'))
+WebUI.click(findTestObject('Object Repository/Page_Element  haha4 and nono_nono/div_yes_yes made the room public to whoever_7bea8b'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  test_create_private_group/button_Upload'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element  test_create_private_group/div_test_case_chat.txt (6 B)_mx_BasicMessag_10dad6'), 
-    '<div style=""><br></div>')
+WebUI.click(findTestObject('Object Repository/Page_Element  haha4 and nono_nono/button_Upload'))
 
 WebUI.closeBrowser()
 

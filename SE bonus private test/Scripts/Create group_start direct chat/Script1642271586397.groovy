@@ -45,8 +45,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Nnono_nononono_no
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Go (4)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element  Empty room/div_test create group by starting direct ch_eef6c8'), 
-    '<div style=""><br></div>')
+WebUI.setText(findTestObject('Object Repository/Page_Element/div_test create group_add account_mx_BasicM_04abb6'), '<div style=""><br></div>')
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div (1)'))
 
 WebUI.closeBrowser()
 

@@ -6,12 +6,12 @@
    <elementGuidId>7a4bb346-a445-44b9-b1e9-7c2842dca700</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_BasicMessageComposer_input.mx_BasicMessageComposer_input_shouldShowPillAvatar.focus-visible.mx_BasicMessageComposer_inputEmpty > div</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div[2]/div/div[4]/div/div/div[2]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx_BasicMessageComposer_input.mx_BasicMessageComposer_input_shouldShowPillAvatar.mx_BasicMessageComposer_inputEmpty.focus-visible > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_RoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_RoomView_body&quot;]/div[@class=&quot;mx_MessageComposer mx_GroupLayout mx_MessageComposer_e2eStatus&quot;]/div[@class=&quot;mx_MessageComposer_wrapper&quot;]/div[@class=&quot;mx_MessageComposer_row&quot;]/div[@class=&quot;mx_SendMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer_input mx_BasicMessageComposer_input_shouldShowPillAvatar focus-visible mx_BasicMessageComposer_inputEmpty&quot;]/div[1]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_RoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_RoomView_body&quot;]/div[@class=&quot;mx_MessageComposer mx_GroupLayout mx_MessageComposer_e2eStatus&quot;]/div[@class=&quot;mx_MessageComposer_wrapper&quot;]/div[@class=&quot;mx_MessageComposer_row&quot;]/div[@class=&quot;mx_SendMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer&quot;]/div[@class=&quot;mx_BasicMessageComposer_input mx_BasicMessageComposer_input_shouldShowPillAvatar mx_BasicMessageComposer_inputEmpty focus-visible&quot;]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -42,14 +42,28 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='?'])[3]/following::div[21]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='yes_yes joined the room'])[1]/following::div[21]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Re-request encryption keys'])[3]/following::div[23]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hihi1 invited yes_yes'])[1]/following::div[27]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This room is public'])[1]/preceding::div[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This room is public'])[2]/preceding::div[16]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

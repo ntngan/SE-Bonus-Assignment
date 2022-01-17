@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>leave.test</name>
+   <name>Sign up_github</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d4856d72-2f34-467f-8c22-1bf28f70a11f</testCaseGuid>
+   <testCaseGuid>7b804fff-8544-4927-a443-b3a79b7c8eb8</testCaseGuid>
 </TestCaseEntity>

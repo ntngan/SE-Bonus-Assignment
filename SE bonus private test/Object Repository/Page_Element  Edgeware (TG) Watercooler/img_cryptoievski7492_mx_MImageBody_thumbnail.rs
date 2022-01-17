@@ -6,12 +6,11 @@
    <elementGuidId>2c6c81fd-997f-4f1f-881a-18c6731426af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//aside[@id='mx_RightPanel']/div/div[2]/div/ol/li[19]/div/div/a/div/div[2]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

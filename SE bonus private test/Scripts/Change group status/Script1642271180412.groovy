@@ -41,9 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element  test_create_private_
 
 WebUI.click(findTestObject('Object Repository/Page_Element  test_create_private_group/div_Security  Privacy'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  test_create_private_group/div'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element  test_create_private_group/button_OK'))
+WebUI.click(findTestObject('Object Repository/Page_Element  haha4 and nono_nono/div_Private (invite only)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element  test_create_private_group/div_Room Settings - test_create_private_gro_1bb296'))
 

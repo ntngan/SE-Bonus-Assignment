@@ -133,7 +133,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='yes_yes'])[2]/following::div[26]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='yes_yes'])[5]/following::div[26]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

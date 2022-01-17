@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Chat_invite link_login already</name>
+   <name>Create space_blank address</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>34b24171-4a17-4193-9a2a-5c95a042152a</testCaseGuid>
+   <testCaseGuid>a41dafda-afac-4768-838a-99a14afe81a4</testCaseGuid>
 </TestCaseEntity>

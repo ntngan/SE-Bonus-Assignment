@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://matrix.to/#/@hihi1:matrix.org')
+WebUI.navigateToUrl('https://matrix.to/#/@nono_nono:matrix.org')
 
 WebUI.click(findTestObject('Object Repository/Page_Youre invited to talk on Matrix/input_Ask every time_primary fullwidth'))
 
@@ -31,22 +31,21 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Message'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username (9)'), 'yes_yes')
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'yes_yes')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password (9)'), 'jMiN+Qtu4gD0Iloo12uvRg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'jMiN+Qtu4gD0Iloo12uvRg==')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit (9)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45 (8)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this login_mx_AccessibleButton m_da0542'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later (8)'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later'))
+
+WebUI.navigateToUrl('https://matrix.to/#/@nono_nono:matrix.org')
+
+WebUI.click(findTestObject('Object Repository/Page_Youre invited to talk on Matrix/a_Continue_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Message'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element  hihi1/div (2)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element  hihi1/div_test chat by sending invite linl_mx_Bas_988aef'), 
-    '<div style=""><br></div>')
 
 WebUI.closeBrowser()
 

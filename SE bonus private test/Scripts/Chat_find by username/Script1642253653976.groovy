@@ -40,9 +40,13 @@ WebUI.setText(findTestObject('Object Repository/Page_Element/input_yes_yesmatrix
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Hhihi1hihi1matrix.org (3)'))
 
+//WebUI.click(findTestObject('Object Repository/Page_Element/div_Hhihi1hihi1matrix.org36 minutes ago'))
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Go (7)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  hihi1/div__mx_BasicMessageComposer'))
+//WebUI.setText(findTestObject('Object Repository/Page_Element  hihi1/div_test chat_find username_mx_BasicMessage_417383'), 
+    //'<div style=""><br></div>')
+
+//WebUI.click(findTestObject('Object Repository/Page_Element  hihi1/div'))
 
 WebUI.closeBrowser()
 

@@ -6,12 +6,12 @@
    <elementGuidId>38855543-03d1-49a6-9617-dbc1da5750cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mx_RegistrationForm_username</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='mx_RegistrationForm_username']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mx_RegistrationForm_username</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>a</value>
+      <value>s</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

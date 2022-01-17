@@ -6,12 +6,12 @@
    <elementGuidId>fec5e0f0-6996-477a-98df-581445b52ab7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mx_Field_1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='mx_Field_1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mx_Field_1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -50,6 +50,13 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>m</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

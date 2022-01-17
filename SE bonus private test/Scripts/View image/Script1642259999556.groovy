@@ -43,5 +43,5 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Bridge from Teleg
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Files'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  Edgeware (TG) Watercooler/img_cryptoievski7492_mx_MImageBody_thumbnail'))
+WebUI.closeBrowser()
 
