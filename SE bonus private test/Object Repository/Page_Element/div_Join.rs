@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Explore Public Rooms</name>
+   <name>div_Join</name>
    <tag></tag>
-   <elementGuidId>b779bb48-c1c2-4689-a93e-45cf495537bd</elementGuidId>
+   <elementGuidId>e85e0537-983b-4681-bbcd-1b34bae8f199</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div[3]/div/div/div/div[2]</value>
+         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div[2]/div/ol/div/div[2]/div[5]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_HomePage_button_explore</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,62 +42,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mx_AccessibleButton mx_HomePage_button_explore</value>
+      <value>mx_AccessibleButton mx_AccessibleButton_hasKind mx_AccessibleButton_kind_primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Explore Public Rooms</value>
+      <value>Join</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_HomePage mx_HomePage_default&quot;]/div[@class=&quot;mx_HomePage_default_wrapper&quot;]/div[@class=&quot;mx_HomePage_default_buttons&quot;]/div[@class=&quot;mx_AccessibleButton mx_HomePage_button_explore&quot;]</value>
+      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper mx_RoomDirectory_dialogWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_RoomDirectory_dialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_RoomDirectory&quot;]/div[@class=&quot;mx_RoomDirectory_list&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_ScrollPanel mx_RoomDirectory_tableWrapper&quot;]/div[@class=&quot;mx_RoomView_messageListWrapper&quot;]/ol[@class=&quot;mx_RoomView_MessageList&quot;]/div[@class=&quot;mx_RoomDirectory_table&quot;]/div[@class=&quot;mx_RoomDirectory_listItem&quot;]/div[@class=&quot;mx_RoomDirectory_join&quot;]/div[@class=&quot;mx_AccessibleButton mx_AccessibleButton_hasKind mx_AccessibleButton_kind_primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div[2]/div[3]/div/div/div/div[2]</value>
+      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div[2]/div/ol/div/div[2]/div[5]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send a Direct Message'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#genshin-impact:matrix.org'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Own your conversations.'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://telegra.ph/About-Genshin-Impact-10-21'])[1]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a Group Chat'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edgeware (TG) Watercooler'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bridge from Telegram'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[3]/div/div/div/div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/div/div/div[2]</value>
+      <value>//div[2]/div[5]/div</value>
    </webElementXpaths>
 </WebElementEntity>

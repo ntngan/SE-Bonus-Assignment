@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mx_Field_4']</value>
+         <value>//input[@id='mx_Field_1']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mx_Field_4</value>
+         <value>#mx_Field_1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mx_Field_4</value>
+      <value>mx_Field_1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,14 +77,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Field_4&quot;)</value>
+      <value>id(&quot;mx_Field_1&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='mx_Field_4']</value>
+      <value>//input[@id='mx_Field_1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +99,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='mx_Field_4']</value>
    </webElementXpaths>
 </WebElementEntity>

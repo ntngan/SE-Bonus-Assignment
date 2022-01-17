@@ -6,12 +6,12 @@
    <elementGuidId>4ab3abf2-bd0e-4616-9d4e-32ed415f5a6a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

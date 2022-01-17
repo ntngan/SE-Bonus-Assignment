@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDI5Y2lkIHVzZXJfaWQgPSBAc2lnbnVwX2dpdDptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDIzNjMxOTY3MzEKMDAyN2NpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1naXRodWIKMDAyZnNpZ25hdHVyZSCDR4H-Dqh2SKTyOCCqZUqc29F9IziHSUcmOC9yxUjN5wo</value>
+      <value>http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDIzY2lkIHVzZXJfaWQgPSBAaXIxczptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDI0MzEyODQzODQKMDAyN2NpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1nb29nbGUKMDAyZnNpZ25hdHVyZSDHv9GJ7_wPk90-BGRcYynPebj--TXy3f0bEsys6IissAo#/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='@signup_git:matrix.org'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@ir1s:matrix.org'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDI5Y2lkIHVzZXJfaWQgPSBAc2lnbnVwX2dpdDptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDIzNjMxOTY3MzEKMDAyN2NpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1naXRodWIKMDAyZnNpZ25hdHVyZSCDR4H-Dqh2SKTyOCCqZUqc29F9IziHSUcmOC9yxUjN5wo']</value>
+      <value>//a[@href='http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDIzY2lkIHVzZXJfaWQgPSBAaXIxczptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDI0MzEyODQzODQKMDAyN2NpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1nb29nbGUKMDAyZnNpZ25hdHVyZSDHv9GJ7_wPk90-BGRcYynPebj--TXy3f0bEsys6IissAo#/']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +99,61 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@cung:matrix.org'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDIzY2lkIHVzZXJfaWQgPSBAY3VuZzptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDI0MzA5MDg5MTMKMDAyOWNpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1mYWNlYm9vawowMDJmc2lnbmF0dXJlIGPRDYezvFpTldBBreUZkEFoc2cXq4fC4ufVTvmuD_spCg#/']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDIzY2lkIHVzZXJfaWQgPSBAY3VuZzptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDI0MzA4MjUzNTgKMDAyOWNpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1mYWNlYm9vawowMDJmc2lnbmF0dXJlICf3W9joWkyqqsZnmoXC--h7CzL5r7WrAm9uM6bg4sr8Cg#/']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@1ris:matrix.org'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDIzY2lkIHVzZXJfaWQgPSBAMXJpczptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDI0Mjg2MTMxNDIKMDAyN2NpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1nb29nbGUKMDAyZnNpZ25hdHVyZSAHO3appXaE8CZLCYstSHDppAzmvDeo9ZPr4VUpUoSJgAo#/']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDIzY2lkIHVzZXJfaWQgPSBAaXIxczptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDI0Mjc4MjY2MTcKMDAyN2NpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1nb29nbGUKMDAyZnNpZ25hdHVyZSAep_d6-3DLOf7ITMN2KGkzM_0CwIiAsLDWfh4Yg5xmnwo#/']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='@signup_git:matrix.org'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://localhost:8080/?loginToken=MDAxOGxvY2F0aW9uIG1hdHJpeC5vcmcKMDAxM2lkZW50aWZpZXIga2V5CjAwMTBjaWQgZ2VuID0gMQowMDI5Y2lkIHVzZXJfaWQgPSBAc2lnbnVwX2dpdDptYXRyaXgub3JnCjAwMTVjaWQgdHlwZSA9IGxvZ2luCjAwMWRjaWQgdGltZSA8IDE2NDIzNjMxOTY3MzEKMDAyN2NpZCBhdXRoX3Byb3ZpZGVyX2lkID0gb2lkYy1naXRodWIKMDAyZnNpZ25hdHVyZSCDR4H-Dqh2SKTyOCCqZUqc29F9IziHSUcmOC9yxUjN5wo']</value>
    </webElementXpaths>
 </WebElementEntity>
