@@ -25,18 +25,18 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Create Account'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/img'))
 
-WebUI.setText(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/input_matrix.org_identifier'), 'nvtien19@apcs.fitus.edu.vn')
+WebUI.setText(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/input_matrix.org_identifier'), 'mafiahuy1234@gmail.com')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/input_matrix.org_identifier'), Keys.chord(
         Keys.ENTER))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/input_Qu nhiu ln th khng thnh cng_password'), 
-    'hO8u+ij0VopG9qDE/0YRrQ==')
+    'ZDgnVXOiZgE63BCx22Auig==')
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/input_Qu nhiu ln th khng thnh cng_password'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create your account/input__username'), '1ris')
+WebUI.setText(findTestObject('Object Repository/Page_Create your account/input__username'), 'cung_van')
 
 WebUI.click(findTestObject('Object Repository/Page_Agree to terms and conditions/input_1rismatrix.org_accepted_version'))
 
